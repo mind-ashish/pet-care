@@ -1,0 +1,105 @@
+
+body{
+	margin: 0px;
+}
+#title{
+	height: 23vh;
+	width: 100%;
+	background-image: linear-gradient(white,lightgrey);
+}
+#title h1{
+	text-align: center;
+	line-height: 23vh;
+	color: black;
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+
+#div2{
+	padding: 0px;  /*to remove the padding getting
+	 from bootstrap*/
+}
+
+#div2 img{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.font-color{
+	color:blue;
+}
+
+#div1, #div3, #div0{
+	padding-top: 10px;
+}
+
+.border-red{
+	border:3px solid red;
+}
+.color-red{
+	color: white !important;
+	background-color: red !important;
+}
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 20% !important;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 20rem;
+    padding: 10px 10px 10px 10px !important;
+    margin: .125rem 0 0 !important;
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+#button-on-image{
+	position: absolute;
+	top: 80%;
+	left: 40%;
+}
+
+#button-3{
+	margin-left: 25%;
+	margin-bottom: 40px;
+}
+
+.margin-b-40{
+	margin-bottom: 40px;
+}
+
+.reset-color-white{
+	color:white;
+	border-color: white
+}
+#button-on-image:hover{
+	background-color: white;
+	color:black;
+
+}
+.color-blue{
+color: blue;
+
+}
+#div0 a:hover{
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
